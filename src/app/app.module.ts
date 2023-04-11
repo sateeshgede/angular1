@@ -20,13 +20,15 @@ import {MatTableModule} from '@angular/material/table';
 import {  MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import {MatSnackBar, MatSnackBarModule} from '@angular/material/snack-bar';
+import { EmployeeComponent } from './employee/employee.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmpAddEditComponent
+    EmpAddEditComponent,
+    EmployeeComponent
   ],
   imports: [
     BrowserModule,
